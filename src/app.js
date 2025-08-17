@@ -13,4 +13,5 @@ import userRouter from "./routes/user.routes.js";
 
 //declaration of router
 app.use("/api/v1/users", userRouter);
+
 export default app;
